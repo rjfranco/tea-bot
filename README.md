@@ -1,4 +1,5 @@
-# ![Lotus](https://github.com/rjfranco/tea-bot/raw/master/lotus.png) Tea Bot
+![Lotus](https://github.com/rjfranco/tea-bot/blob/9fd44d2ea4071fa5eb6f5cf3c7da99e44c7ea68c/lotus.png)
+# Tea Bot
 ## A claudia bot to give you a karma command in slack
 
 ### Requirements
