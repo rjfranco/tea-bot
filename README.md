@@ -14,6 +14,24 @@ Next, run `npm run create`, wait for that to finish, then run `npm run configure
 
 For additional information, check out the Claudia.js and claudia-bot-builder documentation.
 
+### Sample Claudia file
+```
+$> claudia.json
+```
+```json
+{
+  "lambda": {
+    "role": "tea-bot-executor",
+    "name": "tea-bot",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "[yourid]",
+    "module": "bot"
+  }
+}
+```
+
 ## Usage
 Alright! You should be good to go, sample commands are:
 
