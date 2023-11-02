@@ -1,0 +1,13 @@
+{
+  "Statement": [{
+    "Action": [
+      "dynamodb:DeleteItem",
+      "dynamodb:GetItem",
+      "dynamodb:PutItem",
+      "dynamodb:Query",
+      "dynamodb:UpdateItem"
+    ],
+    "Effect": "Allow",
+    "Resource": "*"
+  }]
+}

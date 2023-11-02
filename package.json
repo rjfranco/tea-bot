@@ -1,0 +1,22 @@
+{
+  "name": "tea-bot",
+  "version": "1.0.0",
+  "description": "A karma bot built to work off lambda/dynamo",
+  "main": "bot.js",
+  "repository": "https://github.com/rjfranco/tea-bot",
+  "author": "Ramiro Jr. Franco",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "configure": "claudia update --profile=claudia --configure-slack-slash-command",
+    "create": "claudia create --profile=claudia --region us-west-2 --api-module bot --policies policies",
+    "destroy": "claudia destroy --profile=claudia"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.163.0",
+    "claudia-bot-builder": "^2.15.0"
+  },
+  "devDependencies": {
+    "claudia": "^2.14.3"
+  }
+}
